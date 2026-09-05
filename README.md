@@ -28,22 +28,7 @@ validation, and dynamic attributes.
 
 The program is operated through a terminal-based menu:
 
-<img src="student_database/Screenshots/mainmenu_cum_exit.png" width=800><!-- INSERT IMAGE: Main Menu -->
-
-```text
-╔══════════════════════════════════════╗
-║          STUDENT DATABASE            ║
-╠══════════════════════════════════════╣
-║ 1. Add student                       ║
-║ 2. Search student                    ║
-║ 3. Update student                    ║
-║ 4. Delete student                    ║
-║ 5. Display all students              ║
-║ 6. Sort students                     ║
-║ 7. Manage attributes                 ║
-║ 8. Exit                              ║
-╚══════════════════════════════════════╝
-```
+<img src="Screenshots/mainmenu_cum_exit.png" width=800>
 
 ---
 
@@ -57,7 +42,7 @@ defined in the database.
 The program validates the input while collecting each value and prevents
 duplicate IDs.
 
-<!-- INSERT IMAGE: Add Student / student input -->
+<img src="Screenshots/add_student.png" width=800>
 
 ### 2. Search Student
 
@@ -70,7 +55,7 @@ ID searches look for an exact match.
 
 Name searches can match the complete name or an individual part of a name.
 
-<!-- INSERT IMAGE: Search Student submenu -->
+<img src="Screenshots/search_student.png" width=800>
 
 ### 3. Update Student
 
@@ -81,7 +66,7 @@ and allows one attribute to be updated.
 
 Duplicate IDs are rejected when attempting to change an existing ID.
 
-<!-- INSERT IMAGE: Update Student -->
+<img src="Screenshots/update_student.png" width=800>
 
 ### 4. Delete Student
 
@@ -99,7 +84,7 @@ All student records can be displayed in a formatted table.
 
 The `tabulate` package is used to make the terminal output easier to read.
 
-<!-- INSERT IMAGE: Display All Students -->
+<img src="Screenshots/display_all_student.png" width=800>
 
 ---
 
@@ -118,7 +103,14 @@ Numeric values are displayed before non-numeric values.
 This allows columns containing mixed types of data to still be sorted in a
 predictable way.
 
-<!-- INSERT IMAGE: Sorted Students -->
+### Sorting students by section :
+
+<img src="Screenshots/sort_students.png" width=800>
+
+
+### Displaying sorted students :
+
+<img src="Screenshots/sorted_display_all_students.png" width=800>
 
 ---
 
@@ -151,7 +143,7 @@ An attribute can later be removed if it is no longer required.
 This means the program does not depend on a fixed list of student
 information beyond the protected core attributes.
 
-<!-- INSERT IMAGE: Manage Attributes submenu -->
+<img src="Screenshots/manage_attributes.png" width=800>
 
 ---
 
@@ -186,7 +178,7 @@ CSV file
 Because the records are stored in a CSV file, they remain available after
 the program is closed.
 
-<!-- INSERT IMAGE: student_database.csv -->
+<img src="Screenshots/sample_csv_updated.png" width=800>
 
 ---
 
