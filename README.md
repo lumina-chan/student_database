@@ -178,7 +178,7 @@ CSV file
 Because the records are stored in a CSV file, they remain available after
 the program is closed.
 
-<img src="Screenshots/sample_csv_updated.png" width=800>
+<img src="Screenshots/sample_csv_updated.png" width=500>
 
 ---
 
