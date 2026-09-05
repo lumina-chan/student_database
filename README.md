@@ -28,7 +28,7 @@ validation, and dynamic attributes.
 
 The program is operated through a terminal-based menu:
 
-<!-- INSERT IMAGE: Main Menu -->
+<img src="student_database/Screenshots/mainmenu_cum_exit.png" width=800><!-- INSERT IMAGE: Main Menu -->
 
 ```text
 ╔══════════════════════════════════════╗
