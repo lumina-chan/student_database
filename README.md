@@ -255,6 +255,7 @@ The program uses `student_database.csv` as its database file.
 ```text
 student-database/
 │
+├── Screenshots/
 ├── student_database.py
 ├── student_database.csv
 ├── README.md
